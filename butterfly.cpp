@@ -26,11 +26,7 @@ int main()
 		
 		for(j=1 ;j<=size;j++) //for drawing buttterfly horitzotally each line
 		{
-			if(j<=min_lmt)
-			{
-				cout<<"+";
-			}
-			else if(j >= max_lmt)
+			if((j<=min_lmt) || (j >= max_lmt))
 			{
 				cout<<"+";
 			}
